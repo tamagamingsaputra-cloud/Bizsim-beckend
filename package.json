@@ -1,7 +1,7 @@
 {
   "name": "bizsim-backend",
   "version": "1.0.0",
-  "description": "BizSim REST API — auth, cloud save, admin. Node core only, no npm install required.",
+  "description": "...",
   "main": "server.js",
   "type": "commonjs",
   "engines": { "node": ">=22.5.0" },
@@ -10,8 +10,5 @@
     "migrate": "node database/migrate.js",
     "dev": "node --watch server.js"
   },
-  "dependencies": {},
-  "optionalDependencies": {
-    "_comment": "Install mysql2 or pg manually only if you switch DB_CLIENT away from sqlite. See README."
-  }
+"dependencies": {}
 }
